@@ -138,6 +138,6 @@ At the archived grid size (`1176`, 768 channels), the three double grids for rea
 
 ## Analysis notebooks and references
 
-`Analysis*.ipynb`, `mabs_mwa*.ipynb`, `foreground_wedge.ipynb`, `pk_vs_k.ipynb` and `analysis_codes/` are research analysis sources. Their saved outputs have been cleared for Git. They retain external input assumptions and are not self-contained tutorials. The root and `analysis_codes/` helpers need consolidation before a stable release.
+`Analysis*.ipynb`, `mabs_mwa*.ipynb`, `foreground_wedge.ipynb`, `pk_vs_k.ipynb` and `analysis_codes/` are research analysis sources. Their saved outputs have been cleared for Git.  
 
 Cite Sukhdeep Singh Gill and Somnath Bharadwaj, *A Visibility-based 21 cm Bispectrum Estimator for Radio-interferometric Data*, [arXiv:2506.10526](https://arxiv.org/abs/2506.10526); see `CITATION.cff`. [CONTRIBUTING.md](CONTRIBUTING.md), [PACKAGING.md](docs/PACKAGING.md) and [LICENSE_STATUS.md](LICENSE_STATUS.md) describe support, provenance and the pending licensing decision.
