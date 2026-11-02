@@ -1,0 +1,37 @@
+# Local environments and editor state
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*~
+*.o
+*.so
+*.a
+# Generated scientific data; retain tiny fixtures explicitly under examples when added
+*.fits
+*.FITS
+*.npy
+*.npz
+masked_*
+bsout*
+psout*
+apsout*
+modes
+ResFiles_N*/
+field_N*_R*.txt
+**/output_data/*
+**/results/*
+**/data/*
+!**/.gitkeep
+# Compiled executables
+/barbie
+/field
+/calpow_mom
+/1_ngrf/ngrf_2d
+/2b_visfitsgrid/visfitsgrid
+/3_vcg/vcg
+/4_fbe/viber
+/4_fbe/viber_equi_fast
+/4_fbe/amber
+/4_fbe/amber_v2

@@ -1,0 +1,12 @@
+154.255e6	40.00e03	385	/scratch/path/to/lib/3_vcg/output_data	
+
+nu0		deltanu		chan0	data_path	
+
+
+#NN = Dimensions after vcg = 1176
+#Du = grid width after vcg = 1.0254384902642049
+#nu0=154.255e6
+#dnu=40.00e03
+#chan0=385
+#nchan=768
+#data_path=../3_vcg/output_data

@@ -1,0 +1,218 @@
+[
+  {
+    "original": "mabs_mwa.ipynb",
+    "packaged": "mabs_mwa.ipynb",
+    "original_sha256": "156649fafdae3809eb257b7e39b00b499f7e4ed6b3d24e029ffba0c6251a2100",
+    "packaged_sha256": "c19844262af44cc3bc9232c1d09cacc93609ecd2915f797bf25aef6e5981acf7"
+  },
+  {
+    "original": "mfunc_winds.py",
+    "packaged": "mfunc_winds.py",
+    "original_sha256": "99049e485da06ce6c29dbd5c62098cfe2844c140ca70eca716ecc8fecbc045fa",
+    "packaged_sha256": "99049e485da06ce6c29dbd5c62098cfe2844c140ca70eca716ecc8fecbc045fa"
+  },
+  {
+    "original": "mabs_mwa_pblsh.ipynb",
+    "packaged": "mabs_mwa_pblsh.ipynb",
+    "original_sha256": "e8c6200a3852058692d9315a0c56714792c3c6a644d770d97c4b7a1e2bc7f118",
+    "packaged_sha256": "6cd6ca6b35d956ec8bf98187f49fff106af16d94518abc703e5b5d3c773c2700"
+  },
+  {
+    "original": "Analysis.ipynb",
+    "packaged": "Analysis.ipynb",
+    "original_sha256": "2be82421e433b8b72734127e7b5180c49bead8a55e476cc0e5d9db64ca4f1f15",
+    "packaged_sha256": "3af93527b15750ff95cf1c7f975285237ae7adb4fffa8a142ecda0b4d8d13b00"
+  },
+  {
+    "original": "mabs_funcs.py",
+    "packaged": "mabs_funcs.py",
+    "original_sha256": "cafc286cf438510699d262ad2b69c0e9d2de5d7bb3941b0c036a621cdcd6aa5a",
+    "packaged_sha256": "cafc286cf438510699d262ad2b69c0e9d2de5d7bb3941b0c036a621cdcd6aa5a"
+  },
+  {
+    "original": "pk_vs_k.ipynb",
+    "packaged": "pk_vs_k.ipynb",
+    "original_sha256": "2e26f68868541c70ce69fee9c992fdf97ea5f2799fdb21551e6e6dd2456f109d",
+    "packaged_sha256": "a1fa1fa90e171040426c18f8ee3cafa7cf3bb32435e1c3d51948d57180d3b80a"
+  },
+  {
+    "original": "Analysis_pblsh.ipynb",
+    "packaged": "Analysis_pblsh.ipynb",
+    "original_sha256": "6374d3a30245d3493603e119491b87d22585c262fc0ba2ffcedd2431905d80b4",
+    "packaged_sha256": "2191f9b10e68557c2904b6294129314cb35e0907016853ff26e440775ef953a8"
+  },
+  {
+    "original": "foreground_wedge.ipynb",
+    "packaged": "foreground_wedge.ipynb",
+    "original_sha256": "4893aae46a02a276f80f68ff84334a2c342b2fe212b07076da994debfa67bf65",
+    "packaged_sha256": "62eb66015ab0e54087ded6f5ee0ebbb8b75f0a1bf07c6cb6f679a5a1b08a2253"
+  },
+  {
+    "original": "extra_figures_pblsh.ipynb",
+    "packaged": "extra_figures_pblsh.ipynb",
+    "original_sha256": "c323e01bbb9f1a5127688c59e878058cb49c1e65c89b9b14074c4022d47a6f10",
+    "packaged_sha256": "f7e68235ebf6910e9b3f59e191d963a59454e1afe86ea34f691970a70f36394a"
+  },
+  {
+    "original": "analysis_codes/mfunc_winds.py",
+    "packaged": "analysis_codes/mfunc_winds.py",
+    "original_sha256": "9c14647677959943552e859ba29fee756cfcc5e38282de83ad128547923a6b3e",
+    "packaged_sha256": "9c14647677959943552e859ba29fee756cfcc5e38282de83ad128547923a6b3e"
+  },
+  {
+    "original": "analysis_codes/polished_v2_k1k3swap.ipynb",
+    "packaged": "analysis_codes/polished_v2_k1k3swap.ipynb",
+    "original_sha256": "7888f79273805d8f2b279d02873adbf0d3caee38b53a325ca80a20af6835722e",
+    "packaged_sha256": "7888f79273805d8f2b279d02873adbf0d3caee38b53a325ca80a20af6835722e"
+  },
+  {
+    "original": "analysis_codes/mabs_funcs.py",
+    "packaged": "analysis_codes/mabs_funcs.py",
+    "original_sha256": "cafc286cf438510699d262ad2b69c0e9d2de5d7bb3941b0c036a621cdcd6aa5a",
+    "packaged_sha256": "cafc286cf438510699d262ad2b69c0e9d2de5d7bb3941b0c036a621cdcd6aa5a"
+  },
+  {
+    "original": "analysis_codes/MABS2BS_final_pblsh_copied.ipynb",
+    "packaged": "analysis_codes/MABS2BS_final_pblsh_copied.ipynb",
+    "original_sha256": "3f700f1a3783f39841b29e16c271a868baa674a122ce805eac3a92b166b390e5",
+    "packaged_sha256": "3f700f1a3783f39841b29e16c271a868baa674a122ce805eac3a92b166b390e5"
+  },
+  {
+    "original": "analysis_codes/polished.ipynb",
+    "packaged": "analysis_codes/polished.ipynb",
+    "original_sha256": "f1e1fe62a739fe4680b301fb837e8373d768fabfc28e05be7eab827ae024cd18",
+    "packaged_sha256": "24f768d32ad6cb6c0739cebaf39201fbdb5dae0cb2d3555346ab9bd34095047f"
+  },
+  {
+    "original": "4_fbe/amber_equi.c",
+    "packaged": "4_fbe/amber_equi.c",
+    "original_sha256": "a9d90aec402a2ed2fed33c555fb5ba68b36839569c1af4e68f4c9577721ae6e8",
+    "packaged_sha256": "a9d90aec402a2ed2fed33c555fb5ba68b36839569c1af4e68f4c9577721ae6e8"
+  },
+  {
+    "original": "4_fbe/makefile",
+    "packaged": "4_fbe/makefile",
+    "original_sha256": "0565ceac6094809bcf6dc3943d1dd7986a843e3a9bd124c9fef077e07860060e",
+    "packaged_sha256": "0565ceac6094809bcf6dc3943d1dd7986a843e3a9bd124c9fef077e07860060e"
+  },
+  {
+    "original": "4_fbe/maps.c",
+    "packaged": "4_fbe/maps.c",
+    "original_sha256": "729203c562dde6bf402bffb0f1a2de93ff3188009526de3341b3d1a733594304",
+    "packaged_sha256": "729203c562dde6bf402bffb0f1a2de93ff3188009526de3341b3d1a733594304"
+  },
+  {
+    "original": "4_fbe/run_mabs1.sh",
+    "packaged": "4_fbe/run_mabs1.sh",
+    "original_sha256": "2ae975b5a173de71be3195246c9a70d6a9f2fece698613d622c63b5a755964eb",
+    "packaged_sha256": "2ae975b5a173de71be3195246c9a70d6a9f2fece698613d622c63b5a755964eb"
+  },
+  {
+    "original": "4_fbe/vars.h",
+    "packaged": "4_fbe/vars.h",
+    "original_sha256": "7643ad77dcc80633d4b21512c9790d6db0dc8ce00035be63dd8be9ef455e9378",
+    "packaged_sha256": "7643ad77dcc80633d4b21512c9790d6db0dc8ce00035be63dd8be9ef455e9378"
+  },
+  {
+    "original": "4_fbe/amber_v2.c",
+    "packaged": "4_fbe/amber_v2.c",
+    "original_sha256": "cabaca9c7a6c5f005a9a876f11865664a8384963e2fcd95ead7c44c74ba508d3",
+    "packaged_sha256": "cabaca9c7a6c5f005a9a876f11865664a8384963e2fcd95ead7c44c74ba508d3"
+  },
+  {
+    "original": "4_fbe/amber_funcs.c",
+    "packaged": "4_fbe/amber_funcs.c",
+    "original_sha256": "6e631fe1fe2a4b67778c813524d1d7a763cc151c566aac62f1c856ad4ea219fd",
+    "packaged_sha256": "6e631fe1fe2a4b67778c813524d1d7a763cc151c566aac62f1c856ad4ea219fd"
+  },
+  {
+    "original": "4_fbe/vars.c",
+    "packaged": "4_fbe/vars.c",
+    "original_sha256": "305dfd02625040e977c0c4b46411a2afbdfa34fb0f6ce008051872dbbe215de7",
+    "packaged_sha256": "305dfd02625040e977c0c4b46411a2afbdfa34fb0f6ce008051872dbbe215de7"
+  },
+  {
+    "original": "4_fbe/run_mabs2.sh",
+    "packaged": "4_fbe/run_mabs2.sh",
+    "original_sha256": "d6a69d80d2cb94f8b3aa2aa7a586d90a639aaaf17a7234c0720d9ec64ccc2bd7",
+    "packaged_sha256": "d6a69d80d2cb94f8b3aa2aa7a586d90a639aaaf17a7234c0720d9ec64ccc2bd7"
+  },
+  {
+    "original": "4_fbe/input_params_ess",
+    "packaged": "4_fbe/input_params_ess",
+    "original_sha256": "e8a584c7f0212fc2f405c28c2b820bc402d0abeb22ea3497870e552b4b59b3b1",
+    "packaged_sha256": "e8a584c7f0212fc2f405c28c2b820bc402d0abeb22ea3497870e552b4b59b3b1"
+  },
+  {
+    "original": "4_fbe/export_path.sh",
+    "packaged": "4_fbe/export_path.sh",
+    "original_sha256": "0e364620e0f4054006b91908a48c85a59e2df746b0432d5a18b22c89c637c945",
+    "packaged_sha256": "0e364620e0f4054006b91908a48c85a59e2df746b0432d5a18b22c89c637c945"
+  },
+  {
+    "original": "4_fbe/mabs_funcs.h",
+    "packaged": "4_fbe/mabs_funcs.h",
+    "original_sha256": "9c319f0ae6218633fae8a23028f3b681282d2da1245be5b500571892a96d7227",
+    "packaged_sha256": "9c319f0ae6218633fae8a23028f3b681282d2da1245be5b500571892a96d7227"
+  },
+  {
+    "original": "4_fbe/amber.c",
+    "packaged": "4_fbe/amber.c",
+    "original_sha256": "0397a1550f055b375ff3f061115d6bc7594d4dbc221a78ebc0d91d0e393c8743",
+    "packaged_sha256": "0397a1550f055b375ff3f061115d6bc7594d4dbc221a78ebc0d91d0e393c8743"
+  },
+  {
+    "original": "3_vcg/read_fits_funcmfs.c",
+    "packaged": "3_vcg/read_fits_funcmfs.c",
+    "original_sha256": "0e1e5cbf52262c09d4eb4898b16f17792ce3b5c7276b2da912cd62a62e0224eb",
+    "packaged_sha256": "0e1e5cbf52262c09d4eb4898b16f17792ce3b5c7276b2da912cd62a62e0224eb"
+  },
+  {
+    "original": "3_vcg/Makefile",
+    "packaged": "3_vcg/Makefile",
+    "original_sha256": "9029a9fd94636c95657c79016c46784586442ebd636f5ca2ec17b0a75fb64ecd",
+    "packaged_sha256": "9029a9fd94636c95657c79016c46784586442ebd636f5ca2ec17b0a75fb64ecd"
+  },
+  {
+    "original": "3_vcg/tgefuncs.h",
+    "packaged": "3_vcg/tgefuncs.h",
+    "original_sha256": "fcd66fb716313b9f71a63a7891be73aa86bc70f661969d357b75608c95d460da",
+    "packaged_sha256": "fcd66fb716313b9f71a63a7891be73aa86bc70f661969d357b75608c95d460da"
+  },
+  {
+    "original": "3_vcg/read_fits_func.h",
+    "packaged": "3_vcg/read_fits_func.h",
+    "original_sha256": "8fa70d9f5c841878ac436455e9c5945ce289e323b166bf607fa6d6654cfc43bc",
+    "packaged_sha256": "8fa70d9f5c841878ac436455e9c5945ce289e323b166bf607fa6d6654cfc43bc"
+  },
+  {
+    "original": "3_vcg/inputparameters",
+    "packaged": "3_vcg/inputparameters",
+    "original_sha256": "4ec24d51c54d02006ef83131f31331daf64233e450e9ce676512fec60bad9d16",
+    "packaged_sha256": "4ec24d51c54d02006ef83131f31331daf64233e450e9ce676512fec60bad9d16"
+  },
+  {
+    "original": "3_vcg/main.c",
+    "packaged": "3_vcg/main.c",
+    "original_sha256": "33d033b92088f6bdee031e1cc2c4f2c0bc3b198b0bf60e11278118ec1b322da6",
+    "packaged_sha256": "33d033b92088f6bdee031e1cc2c4f2c0bc3b198b0bf60e11278118ec1b322da6"
+  },
+  {
+    "original": "3_vcg/tgefuncs.c",
+    "packaged": "3_vcg/tgefuncs.c",
+    "original_sha256": "6fb9daa4e79527903600b518becbc96763063fed1a653f5f0b39094c8601e578",
+    "packaged_sha256": "6fb9daa4e79527903600b518becbc96763063fed1a653f5f0b39094c8601e578"
+  },
+  {
+    "original": "3_vcg/export_path.sh",
+    "packaged": "3_vcg/export_path.sh",
+    "original_sha256": "8cf0ee70d37ec21e27503c0ae35aac60a87786c7795c936c1143ad8d8d632210",
+    "packaged_sha256": "8cf0ee70d37ec21e27503c0ae35aac60a87786c7795c936c1143ad8d8d632210"
+  },
+  {
+    "original": "3_vcg/run_vcg.sh",
+    "packaged": "3_vcg/run_vcg.sh",
+    "original_sha256": "b04e9471c502a85d1f443b607ae71b84a7ab8b5f267755a9390620a7c6790428",
+    "packaged_sha256": "b04e9471c502a85d1f443b607ae71b84a7ab8b5f267755a9390620a7c6790428"
+  }
+]

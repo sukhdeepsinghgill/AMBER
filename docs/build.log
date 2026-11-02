@@ -1,0 +1,1069 @@
+gcc -I<LOCAL_DEPENDENCY_PREFIX>/include -O2 -std=gnu11 -Wall -Wextra -fopenmp 3_vcg/read_fits_funcmfs.c 3_vcg/tgefuncs.c 3_vcg/main.c -L<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -Wl,-rpath,<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -lfftw3_omp -lfftw3 -lgsl -lgslcblas -lcfitsio -lm -o 3_vcg/vcg
+3_vcg/read_fits_funcmfs.c: In function ‘read_fits_header’:
+3_vcg/read_fits_funcmfs.c:41:19: warning: unused variable ‘ttest’ [-Wunused-variable]
+   41 |   int ii,jj,kk,st,ttest;
+      |                   ^~~~~
+3_vcg/read_fits_funcmfs.c:41:16: warning: unused variable ‘st’ [-Wunused-variable]
+   41 |   int ii,jj,kk,st,ttest;
+      |                ^~
+3_vcg/read_fits_funcmfs.c:41:13: warning: unused variable ‘kk’ [-Wunused-variable]
+   41 |   int ii,jj,kk,st,ttest;
+      |             ^~
+3_vcg/read_fits_funcmfs.c:41:10: warning: unused variable ‘jj’ [-Wunused-variable]
+   41 |   int ii,jj,kk,st,ttest;
+      |          ^~
+3_vcg/read_fits_funcmfs.c:41:7: warning: unused variable ‘ii’ [-Wunused-variable]
+   41 |   int ii,jj,kk,st,ttest;
+      |       ^~
+3_vcg/read_fits_funcmfs.c:32:8: warning: unused variable ‘key_naxis’ [-Wunused-variable]
+   32 |   char key_naxis[FLEN_KEYWORD]="NAXIS";
+      |        ^~~~~~~~~
+3_vcg/tgefuncs.c: In function ‘initialize’:
+3_vcg/tgefuncs.c:47:10: warning: unused variable ‘jj’ [-Wunused-variable]
+   47 |   int ii,jj,nn,sf,Ngrid;
+      |          ^~
+3_vcg/tgefuncs.c: In function ‘initialize_gridding’:
+3_vcg/tgefuncs.c:311:39: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+  311 |   printf("\n Grids after collapse = %ld",nc_coll);
+      |                                     ~~^  ~~~~~~~
+      |                                       |  |
+      |                                       |  int
+      |                                       long int
+      |                                     %d
+3_vcg/tgefuncs.c:292:16: warning: unused variable ‘sf’ [-Wunused-variable]
+  292 |   int ii,jj,nn,sf;
+      |                ^~
+3_vcg/tgefuncs.c:292:10: warning: unused variable ‘jj’ [-Wunused-variable]
+  292 |   int ii,jj,nn,sf;
+      |          ^~
+3_vcg/tgefuncs.c: In function ‘group_loop_gridding’:
+3_vcg/tgefuncs.c:384:18: warning: unused variable ‘V2LL’ [-Wunused-variable]
+  384 |   double *V2RR, *V2LL;
+      |                  ^~~~
+3_vcg/tgefuncs.c:384:11: warning: unused variable ‘V2RR’ [-Wunused-variable]
+  384 |   double *V2RR, *V2LL;
+      |           ^~~~
+3_vcg/tgefuncs.c:382:43: warning: unused variable ‘sLLr’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                           ^~~~
+3_vcg/tgefuncs.c:382:38: warning: unused variable ‘sRRr’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                      ^~~~
+3_vcg/tgefuncs.c:382:33: warning: unused variable ‘gLLi’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                 ^~~~
+3_vcg/tgefuncs.c:382:28: warning: unused variable ‘gLLr’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                            ^~~~
+3_vcg/tgefuncs.c:382:23: warning: unused variable ‘gRRi’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                       ^~~~
+3_vcg/tgefuncs.c:382:18: warning: unused variable ‘gRRr’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                  ^~~~
+3_vcg/tgefuncs.c:382:15: warning: unused variable ‘wt’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |               ^~
+3_vcg/tgefuncs.c:382:10: warning: unused variable ‘diff’ [-Wunused-variable]
+  382 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |          ^~~~
+3_vcg/tgefuncs.c:380:36: warning: unused variable ‘dnu’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                                    ^~~
+3_vcg/tgefuncs.c:380:32: warning: unused variable ‘ch2’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                                ^~~
+3_vcg/tgefuncs.c:380:28: warning: unused variable ‘ch1’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                            ^~~
+3_vcg/tgefuncs.c:380:25: warning: unused variable ‘ny’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                         ^~
+3_vcg/tgefuncs.c:380:22: warning: unused variable ‘nx’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                      ^~
+3_vcg/tgefuncs.c:380:19: warning: unused variable ‘ll’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                   ^~
+3_vcg/tgefuncs.c:380:16: warning: unused variable ‘kk’ [-Wunused-variable]
+  380 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                ^~
+3_vcg/tgefuncs.c: In function ‘group_loop_gridding_without_flag’:
+3_vcg/tgefuncs.c:518:18: warning: variable ‘V2LL’ set but not used [-Wunused-but-set-variable]
+  518 |   double *V2RR, *V2LL;
+      |                  ^~~~
+3_vcg/tgefuncs.c:518:11: warning: variable ‘V2RR’ set but not used [-Wunused-but-set-variable]
+  518 |   double *V2RR, *V2LL;
+      |           ^~~~
+3_vcg/tgefuncs.c:516:43: warning: unused variable ‘sLLr’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                           ^~~~
+3_vcg/tgefuncs.c:516:38: warning: unused variable ‘sRRr’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                      ^~~~
+3_vcg/tgefuncs.c:516:33: warning: unused variable ‘gLLi’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                                 ^~~~
+3_vcg/tgefuncs.c:516:28: warning: unused variable ‘gLLr’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                            ^~~~
+3_vcg/tgefuncs.c:516:23: warning: unused variable ‘gRRi’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                       ^~~~
+3_vcg/tgefuncs.c:516:18: warning: unused variable ‘gRRr’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |                  ^~~~
+3_vcg/tgefuncs.c:516:15: warning: unused variable ‘wt’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |               ^~
+3_vcg/tgefuncs.c:516:10: warning: unused variable ‘diff’ [-Wunused-variable]
+  516 |   double diff,wt,gRRr,gRRi,gLLr,gLLi,sRRr,sLLr;
+      |          ^~~~
+3_vcg/tgefuncs.c:514:36: warning: unused variable ‘dnu’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                                    ^~~
+3_vcg/tgefuncs.c:514:32: warning: unused variable ‘ch2’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                                ^~~
+3_vcg/tgefuncs.c:514:28: warning: unused variable ‘ch1’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                            ^~~
+3_vcg/tgefuncs.c:514:25: warning: unused variable ‘ny’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                         ^~
+3_vcg/tgefuncs.c:514:22: warning: unused variable ‘nx’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                      ^~
+3_vcg/tgefuncs.c:514:19: warning: unused variable ‘ll’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                   ^~
+3_vcg/tgefuncs.c:514:16: warning: unused variable ‘kk’ [-Wunused-variable]
+  514 |   int nn,ii,jj,kk,ll,nx,ny,ch1,ch2,dnu;
+      |                ^~
+3_vcg/tgefuncs.c: In function ‘WriteGVnAC_gridding’:
+3_vcg/tgefuncs.c:636:37: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  636 |   printf("\nSize of the output GV: %d*%d*%d.",NN,NN/2+1,nc);
+      |                                    ~^         ~~
+      |                                     |         |
+      |                                     int       long int
+      |                                    %ld
+3_vcg/tgefuncs.c:636:40: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+  636 |   printf("\nSize of the output GV: %d*%d*%d.",NN,NN/2+1,nc);
+      |                                       ~^         ~~~~~~
+      |                                        |             |
+      |                                        int           long int
+      |                                       %ld
+3_vcg/tgefuncs.c:633:7: warning: unused variable ‘MM’ [-Wunused-variable]
+  633 |   int MM = 2*Nm;
+      |       ^~
+3_vcg/tgefuncs.c: In function ‘WriteGVnAC_coll’:
+3_vcg/tgefuncs.c:701:37: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  701 |   printf("\nSize of the output GV: %d*%d*%d.\n",NN,NN/2+1,nc_coll);
+      |                                    ~^           ~~
+      |                                     |           |
+      |                                     int         long int
+      |                                    %ld
+3_vcg/tgefuncs.c:701:40: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+  701 |   printf("\nSize of the output GV: %d*%d*%d.\n",NN,NN/2+1,nc_coll);
+      |                                       ~^           ~~~~~~
+      |                                        |               |
+      |                                        int             long int
+      |                                       %ld
+3_vcg/tgefuncs.c:698:7: warning: unused variable ‘MM’ [-Wunused-variable]
+  698 |   int MM = 2*Nm;
+      |       ^~
+3_vcg/tgefuncs.c: In function ‘WriteGVnAC_gridding_realpart’:
+3_vcg/tgefuncs.c:785:37: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  785 |   printf("\nSize of the output GV: %d*%d*%d.",NN,NN/2+1,nc);
+      |                                    ~^         ~~
+      |                                     |         |
+      |                                     int       long int
+      |                                    %ld
+3_vcg/tgefuncs.c:785:40: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+  785 |   printf("\nSize of the output GV: %d*%d*%d.",NN,NN/2+1,nc);
+      |                                       ~^         ~~~~~~
+      |                                        |             |
+      |                                        int           long int
+      |                                       %ld
+3_vcg/tgefuncs.c:784:7: warning: unused variable ‘MM’ [-Wunused-variable]
+  784 |   int MM = 2*Nm;
+      |       ^~
+3_vcg/tgefuncs.c: In function ‘initialize’:
+3_vcg/tgefuncs.c:94:1: warning: control reaches end of non-void function [-Wreturn-type]
+   94 | }
+      | ^
+3_vcg/tgefuncs.c: In function ‘initialize_gridding’:
+3_vcg/tgefuncs.c:355:1: warning: control reaches end of non-void function [-Wreturn-type]
+  355 | }
+      | ^
+gcc -I<LOCAL_DEPENDENCY_PREFIX>/include -O2 -std=gnu11 -Wall -Wextra -fopenmp 4_fbe/amber.c 4_fbe/vars.c 4_fbe/amber_funcs.c -L<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -Wl,-rpath,<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -lfftw3_omp -lfftw3 -lgsl -lgslcblas -lcfitsio -lm -o 4_fbe/amber
+4_fbe/amber.c: In function ‘main’:
+4_fbe/amber.c:296:57: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  296 |           if (fwrite(bldnu, sizeof(float), ncsize, fp1) != ncsize) {
+      |                                                         ^~
+4_fbe/amber.c:300:56: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  300 |           if (fwrite(numdnu, sizeof(int), ncsize, fp1) != ncsize) {
+      |                                                        ^~
+4_fbe/amber.c:29:18: warning: unused variable ‘fp2’ [-Wunused-variable]
+   29 |   FILE *fp,*fp1,*fp2;
+      |                  ^~~
+4_fbe/amber.c:29:9: warning: unused variable ‘fp’ [-Wunused-variable]
+   29 |   FILE *fp,*fp1,*fp2;
+      |         ^~
+4_fbe/amber.c:28:8: warning: unused variable ‘file’ [-Wunused-variable]
+   28 |   char file[512],file1[512],file2[512];
+      |        ^~~~
+4_fbe/amber.c:27:32: warning: unused variable ‘Umin1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                                ^~~~~
+4_fbe/amber.c:27:25: warning: unused variable ‘Umax1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                         ^~~~~
+4_fbe/amber.c:27:22: warning: unused variable ‘dU’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                      ^~
+4_fbe/amber.c:27:18: warning: unused variable ‘U3’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                  ^~
+4_fbe/amber.c:27:14: warning: unused variable ‘U2’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |              ^~
+4_fbe/amber.c:27:10: warning: unused variable ‘U1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |          ^~
+4_fbe/amber.c:26:82: warning: unused variable ‘PU3’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                                                  ^~~
+4_fbe/amber.c:26:77: warning: unused variable ‘PU2’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                                             ^~~
+4_fbe/amber.c:26:72: warning: unused variable ‘PU1’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                                        ^~~
+4_fbe/amber.c:26:68: warning: unused variable ‘mu’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                                    ^~
+4_fbe/amber.c:26:64: warning: unused variable ‘tt’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                                ^~
+4_fbe/amber.c:26:52: warning: unused variable ‘Bierr’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                                    ^~~~~
+4_fbe/amber.c:26:46: warning: unused variable ‘Denom’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                              ^~~~~
+4_fbe/amber.c:26:40: warning: unused variable ‘Biana’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                                        ^~~~~
+4_fbe/amber.c:26:19: warning: unused variable ‘t’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |                   ^
+4_fbe/amber.c:26:14: warning: unused variable ‘Area’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |              ^~~~
+4_fbe/amber.c:26:10: warning: unused variable ‘LL’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri;
+      |          ^~
+4_fbe/amber.c:23:32: warning: unused variable ‘num’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                                ^~~
+4_fbe/amber.c:23:27: warning: unused variable ‘NB’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                           ^~
+4_fbe/amber.c:23:24: warning: unused variable ‘l’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                        ^
+4_fbe/amber.c:23:21: warning: unused variable ‘j’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                     ^
+4_fbe/amber.c:289:50: warning: ‘/bsout_final_ra’ directive output may be truncated writing 15 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+  289 |           snprintf(file1, 512 * sizeof(char), "%s/bsout_final_ra%d_rb%d_rc%d_R%d", res_path, r1, r2, r3, out_Rlzn);
+      |                                                  ^~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from 4_fbe/amber.c:7:
+In function ‘snprintf’,
+    inlined from ‘main’ at 4_fbe/amber.c:289:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 28 and 579 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber.c: In function ‘main’:
+4_fbe/amber.c:234:12: warning: ‘total_vcp’ may be used uninitialized [-Wmaybe-uninitialized]
+  234 |    #pragma omp parallel firstprivate(sd_size,ncsize,vcp)
+      |            ^~~
+4_fbe/amber.c:24:28: note: ‘total_vcp’ was declared here
+   24 |   int nclen, ncsize, *vcp, total_vcp;
+      |                            ^~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘fft_init’:
+4_fbe/amber_funcs.c:211:21: warning: unused variable ‘po1’ [-Wunused-variable]
+  211 |   fftw_plan p1, pd1,po1;
+      |                     ^~~
+4_fbe/amber_funcs.c:204:26: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  204 |   fftw_complex *i1,*d1, *comp_ro;
+      |                          ^~~~~~~
+4_fbe/amber_funcs.c:194:24: warning: unused variable ‘ja’ [-Wunused-variable]
+  194 |   int i,j,k,m,index,ia,ja,index_1;
+      |                        ^~
+4_fbe/amber_funcs.c:194:11: warning: unused variable ‘k’ [-Wunused-variable]
+  194 |   int i,j,k,m,index,ia,ja,index_1;
+      |           ^
+4_fbe/amber_funcs.c: In function ‘fft_init_orig’:
+4_fbe/amber_funcs.c:315:4: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  315 |    for(i=0;i<N1;++i)
+      |    ^~~
+4_fbe/amber_funcs.c:342:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  342 |     fftw_execute(p1); // perform FT
+      |     ^~~~~~~~~~~~
+4_fbe/amber_funcs.c:301:26: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  301 |   fftw_complex *i1,*d1, *comp_ro;
+      |                          ^~~~~~~
+4_fbe/amber_funcs.c:293:15: warning: unused variable ‘iagv’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |               ^~~~
+4_fbe/amber_funcs.c:293:11: warning: unused variable ‘jc’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |           ^~
+4_fbe/amber_funcs.c:293:7: warning: unused variable ‘ic’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |       ^~
+4_fbe/amber_funcs.c:292:14: warning: unused variable ‘index_1’ [-Wunused-variable]
+  292 |   long index,index_1;
+      |              ^~~~~~~
+4_fbe/amber_funcs.c:291:18: warning: unused variable ‘ja’ [-Wunused-variable]
+  291 |   int i,j,k,m,ia,ja;
+      |                  ^~
+4_fbe/amber_funcs.c:291:11: warning: unused variable ‘k’ [-Wunused-variable]
+  291 |   int i,j,k,m,ia,ja;
+      |           ^
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:535:70: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  535 |     if (fread(*rdataPtr, sizeof(double), *rcountPtr * 4, file_rings) != *rcountPtr * 4) {
+      |                                                                      ^~
+4_fbe/amber_funcs.c: In function ‘Df’:
+4_fbe/amber_funcs.c:556:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  556 |         fftw_complex *to_DD, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘Dfg’:
+4_fbe/amber_funcs.c:578:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  578 |         fftw_complex *to_DD, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c:575:33: warning: unused variable ‘jNg’ [-Wunused-variable]
+  575 |         int iN, jN, ia, j, iNg, jNg;
+      |                                 ^~~
+4_fbe/amber_funcs.c:575:17: warning: unused variable ‘jN’ [-Wunused-variable]
+  575 |         int iN, jN, ia, j, iNg, jNg;
+      |                 ^~
+4_fbe/amber_funcs.c: In function ‘Ifg’:
+4_fbe/amber_funcs.c:604:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  604 |         fftw_complex *to_II, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c:601:33: warning: unused variable ‘jNg’ [-Wunused-variable]
+  601 |         int iN, jN, ia, j, iNg, jNg;
+      |                                 ^~~
+4_fbe/amber_funcs.c:601:17: warning: unused variable ‘jN’ [-Wunused-variable]
+  601 |         int iN, jN, ia, j, iNg, jNg;
+      |                 ^~
+4_fbe/amber_funcs.c: In function ‘wrapid’:
+4_fbe/amber_funcs.c:629:6: warning: unused variable ‘index’ [-Wunused-variable]
+  629 | long index;
+      |      ^~~~~
+4_fbe/amber_funcs.c:628:14: warning: unused variable ‘jj’ [-Wunused-variable]
+  628 | int p1,r1,ii,jj;
+      |              ^~
+4_fbe/amber_funcs.c: In function ‘wrapidg’:
+4_fbe/amber_funcs.c:674:6: warning: unused variable ‘index’ [-Wunused-variable]
+  674 | long index;
+      |      ^~~~~
+4_fbe/amber_funcs.c:673:14: warning: unused variable ‘jj’ [-Wunused-variable]
+  673 | int p1,r1,ii,jj;
+      |              ^~
+4_fbe/amber_funcs.c: In function ‘get_D’:
+4_fbe/amber_funcs.c:712:16: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  712 |     if (result != N1 * N2) {
+      |                ^~
+4_fbe/amber_funcs.c: In function ‘get_Dg’:
+4_fbe/amber_funcs.c:733:16: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  733 |     if (result != Ng1 * Ng2) {
+      |                ^~
+4_fbe/amber_funcs.c: In function ‘power_spec_GVRL’:
+4_fbe/amber_funcs.c:1204:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1204 |   double binsiz,uu, numer, denom, re_part, im_part;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘power_spec_GV’:
+4_fbe/amber_funcs.c:1286:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1286 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘power_spec_GV_Ntig’:
+4_fbe/amber_funcs.c:1356:20: warning: unused variable ‘ja’ [-Wunused-variable]
+ 1356 |   int i,j,index,ia,ja,tmp;
+      |                    ^~
+4_fbe/amber_funcs.c:1355:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1355 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘cl_dnu’:
+4_fbe/amber_funcs.c:1433:7: warning: variable ‘Nlim’ set but not used [-Wunused-but-set-variable]
+ 1433 |   int Nlim;
+      |       ^~~~
+4_fbe/amber_funcs.c:1430:20: warning: unused variable ‘ja’ [-Wunused-variable]
+ 1430 |   int i,j,index,ia,ja,tmp;
+      |                    ^~
+4_fbe/amber_funcs.c:1429:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1429 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘read_uvdata’:
+4_fbe/amber_funcs.c:1556:18: warning: variable ‘Nz’ set but not used [-Wunused-but-set-variable]
+ 1556 |     long Nu, Nv, Nz, Nvis;
+      |                  ^~
+4_fbe/amber_funcs.c:1555:67: warning: unused variable ‘npixels’ [-Wunused-variable]
+ 1555 |     long naxes[3], fpixel[3], lpixel[3], inc[3]={1,1,1}, nbuffer, npixels, ii, jj, index, index1;
+      |                                                                   ^~~~~~~
+4_fbe/amber_funcs.c:1555:58: warning: unused variable ‘nbuffer’ [-Wunused-variable]
+ 1555 |     long naxes[3], fpixel[3], lpixel[3], inc[3]={1,1,1}, nbuffer, npixels, ii, jj, index, index1;
+      |                                                          ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1746:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+ 1746 |   printf("\n Ngrid = %d",Ngrid);
+      |                      ~^  ~~~~~
+      |                       |  |
+      |                       |  long int
+      |                       int
+      |                      %ld
+4_fbe/amber_funcs.c:1722:16: warning: unused variable ‘sf’ [-Wunused-variable]
+ 1722 |   int ii,jj,nn,sf;
+      |                ^~
+4_fbe/amber_funcs.c:1722:10: warning: unused variable ‘jj’ [-Wunused-variable]
+ 1722 |   int ii,jj,nn,sf;
+      |          ^~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp’:
+4_fbe/amber_funcs.c:2110:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2110 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2107:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2107 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp_adaptive’:
+4_fbe/amber_funcs.c:2165:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2165 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2163:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2163 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp_old’:
+4_fbe/amber_funcs.c:2439:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2439 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2436:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2436 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘get_uf_chans’:
+4_fbe/amber_funcs.c:2501:44: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 3 has type ‘int’ [-Wformat=]
+ 2501 |         fprintf(stderr, "Error: expected %zu integers, but only read %zu\n", uf_nc, i);
+      |                                          ~~^                                 ~~~~~
+      |                                            |                                 |
+      |                                            long unsigned int                 int
+      |                                          %u
+4_fbe/amber_funcs.c:2501:72: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 4 has type ‘int’ [-Wformat=]
+ 2501 |         fprintf(stderr, "Error: expected %zu integers, but only read %zu\n", uf_nc, i);
+      |                                                                      ~~^            ~
+      |                                                                        |            |
+      |                                                                        |            int
+      |                                                                        long unsigned int
+      |                                                                      %u
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1736:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1736 |   fread(&NN,sizeof(NN),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1737:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1737 |   fread(&nc, sizeof(nc), 1, fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1738:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1738 |   fread(&Du,sizeof(Du),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1739:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1739 |   fread(&flag_key,sizeof(flag_key),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1779:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1779 | }
+      | ^
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1877:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1877 |  fread(&NN,sizeof(NN),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1878:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1878 |  fread(&nc, sizeof(nc), 1, fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1879:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1879 |  fread(&Du,sizeof(Du),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1880:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1880 |  fread(&flag_key,sizeof(flag_key),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1888:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1888 |             fread(&GVRRre[index][nn],sizeof(GVRRre[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1889:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1889 |             fread(&GVRRim[index][nn],sizeof(GVRRim[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1907:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1907 |             fread(&NTiG[index][nn],sizeof(NTiG[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘calCR’:
+4_fbe/amber_funcs.c:406:43: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  406 |     snprintf(filename, sizeof(filename), "%s/closed_rings",res_path);
+      |                                           ^~               ~~~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from 4_fbe/amber_funcs.c:9:
+In function ‘snprintf’,
+    inlined from ‘calCR’ at 4_fbe/amber_funcs.c:406:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 14 and 525 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘calCR’:
+4_fbe/amber_funcs.c:476:45: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  476 |     snprintf(filename2, sizeof(filename2), "%s/rcount", res_path);
+      |                                             ^~          ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘calCR’ at 4_fbe/amber_funcs.c:476:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 8 and 519 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:504:55: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  504 |     snprintf(filename_count, sizeof(filename_count), "%s/rcount", res_path);
+      |                                                       ^~          ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘read_rings’ at 4_fbe/amber_funcs.c:504:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 8 and 519 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:519:55: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  519 |     snprintf(filename_rings, sizeof(filename_rings), "%s/closed_rings",res_path);
+      |                                                       ^~               ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘read_rings’ at 4_fbe/amber_funcs.c:519:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 14 and 525 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In file included from <LOCAL_DEPENDENCY_PREFIX>/include/fitsio.h:205,
+                 from 4_fbe/amber_funcs.c:14:
+4_fbe/amber_funcs.c: In function ‘read_uvdata’:
+<LOCAL_DEPENDENCY_PREFIX>/include/longnam.h:360:31: warning: ‘nullval’ may be used uninitialized [-Wmaybe-uninitialized]
+  360 | #define fits_read_subset      ffgsv
+4_fbe/amber_funcs.c:1626:9: note: in expansion of macro ‘fits_read_subset’
+ 1626 |     if( fits_read_subset(fptr,TDOUBLE,fpixel,lpixel,inc,nullval,buffer1,&anynull,&status) )
+      |         ^~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1559:11: note: ‘nullval’ was declared here
+ 1559 |     void *nullval;
+      |           ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1733:41: warning: ‘/GV_data_’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1733 |   snprintf(file_GV, 512*sizeof(char),"%s/GV_data_%d",data_path,NRi);
+      |                                         ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘initialize’ at 4_fbe/amber_funcs.c:1733:3:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 11 and 532 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1870:42: warning: ‘/GV_data_’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1870 |    snprintf(file_GV, 512*sizeof(char),"%s/GV_data_%d",data_path,NRi);
+      |                                          ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘ReadGVnAC_gridding’ at 4_fbe/amber_funcs.c:1870:4:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 11 and 532 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1898:44: warning: ‘/sampling’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1898 |    snprintf(file_samp, 512*sizeof(char),"%s/sampling",data_path);
+      |                                            ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘ReadGVnAC_gridding’ at 4_fbe/amber_funcs.c:1898:4:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 10 and 521 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘get_uf_chans’:
+4_fbe/amber_funcs.c:2487:55: warning: ‘__builtin___snprintf_chk’ output may be truncated before the last format character [-Wformat-truncation=]
+ 2487 |     snprintf(file_ufchans, sizeof(file_ufchans),"%s/%s",data_path, filename);
+      |                                                       ^
+In function ‘snprintf’,
+    inlined from ‘get_uf_chans’ at 4_fbe/amber_funcs.c:2487:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output 2 or more bytes (assuming 513) into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+gcc -I<LOCAL_DEPENDENCY_PREFIX>/include -O2 -std=gnu11 -Wall -Wextra -fopenmp 4_fbe/amber_v2.c 4_fbe/vars.c 4_fbe/amber_funcs.c -L<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -Wl,-rpath,<LOCAL_DEPENDENCY_PREFIX>/lib/x86_64-linux-gnu -lfftw3_omp -lfftw3 -lgsl -lgslcblas -lcfitsio -lm -o 4_fbe/amber_v2
+4_fbe/amber_v2.c: In function ‘main’:
+4_fbe/amber_v2.c:301:57: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  301 |           if (fwrite(bldnu, sizeof(float), ncsize, fp1) != ncsize) {
+      |                                                         ^~
+4_fbe/amber_v2.c:305:58: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  305 |           if (fwrite(numdnu, sizeof(float), ncsize, fp1) != ncsize) {
+      |                                                          ^~
+4_fbe/amber_v2.c:29:18: warning: unused variable ‘fp2’ [-Wunused-variable]
+   29 |   FILE *fp,*fp1,*fp2;
+      |                  ^~~
+4_fbe/amber_v2.c:29:9: warning: unused variable ‘fp’ [-Wunused-variable]
+   29 |   FILE *fp,*fp1,*fp2;
+      |         ^~
+4_fbe/amber_v2.c:28:8: warning: unused variable ‘file’ [-Wunused-variable]
+   28 |   char file[512],file1[512],file2[512];
+      |        ^~~~
+4_fbe/amber_v2.c:27:32: warning: unused variable ‘Umin1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                                ^~~~~
+4_fbe/amber_v2.c:27:25: warning: unused variable ‘Umax1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                         ^~~~~
+4_fbe/amber_v2.c:27:22: warning: unused variable ‘dU’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                      ^~
+4_fbe/amber_v2.c:27:18: warning: unused variable ‘U3’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |                  ^~
+4_fbe/amber_v2.c:27:14: warning: unused variable ‘U2’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |              ^~
+4_fbe/amber_v2.c:27:10: warning: unused variable ‘U1’ [-Wunused-variable]
+   27 |   double U1, U2, U3, dU,Umax1, Umin1, gfact, gfact_sq,*rdata;
+      |          ^~
+4_fbe/amber_v2.c:26:93: warning: variable ‘Num_fp’ set but not used [-Wunused-but-set-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                                             ^~~~~~
+4_fbe/amber_v2.c:26:87: warning: unused variable ‘Ntri’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                                       ^~~~
+4_fbe/amber_v2.c:26:82: warning: unused variable ‘PU3’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                                  ^~~
+4_fbe/amber_v2.c:26:77: warning: unused variable ‘PU2’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                             ^~~
+4_fbe/amber_v2.c:26:72: warning: unused variable ‘PU1’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                        ^~~
+4_fbe/amber_v2.c:26:68: warning: unused variable ‘mu’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                    ^~
+4_fbe/amber_v2.c:26:64: warning: unused variable ‘tt’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                                ^~
+4_fbe/amber_v2.c:26:59: warning: unused variable ‘Num’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                           ^~~
+4_fbe/amber_v2.c:26:52: warning: unused variable ‘Bierr’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                                    ^~~~~
+4_fbe/amber_v2.c:26:46: warning: unused variable ‘Denom’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                              ^~~~~
+4_fbe/amber_v2.c:26:40: warning: unused variable ‘Biana’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                                        ^~~~~
+4_fbe/amber_v2.c:26:19: warning: unused variable ‘t’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |                   ^
+4_fbe/amber_v2.c:26:14: warning: unused variable ‘Area’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |              ^~~~
+4_fbe/amber_v2.c:26:10: warning: unused variable ‘LL’ [-Wunused-variable]
+   26 |   double LL, Area,t,T=omp_get_wtime(), Biana,Denom,Bierr, Num, tt, mu, PU1, PU2, PU3, Ntri, Num_fp;
+      |          ^~
+4_fbe/amber_v2.c:23:32: warning: unused variable ‘num’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                                ^~~
+4_fbe/amber_v2.c:23:27: warning: unused variable ‘NB’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                           ^~
+4_fbe/amber_v2.c:23:24: warning: unused variable ‘l’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                        ^
+4_fbe/amber_v2.c:23:21: warning: unused variable ‘j’ [-Wunused-variable]
+   23 |   int Nbin, Rlzn,i, j, l, NB, *num,rcount, r1,r2,r3,rp;
+      |                     ^
+4_fbe/amber_v2.c:295:50: warning: ‘/bsout_final2_ra’ directive output may be truncated writing 16 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+  295 |           snprintf(file1, 512 * sizeof(char), "%s/bsout_final2_ra%d_rb%d_rc%d_R%d", res_path, r1, r2, r3, out_Rlzn);
+      |                                                  ^~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from 4_fbe/amber_v2.c:7:
+In function ‘snprintf’,
+    inlined from ‘main’ at 4_fbe/amber_v2.c:295:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 29 and 580 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_v2.c: In function ‘main’:
+4_fbe/amber_v2.c:230:12: warning: ‘total_vcp’ may be used uninitialized [-Wmaybe-uninitialized]
+  230 |    #pragma omp parallel firstprivate(sd_size,ncsize,vcp)
+      |            ^~~
+4_fbe/amber_v2.c:24:28: note: ‘total_vcp’ was declared here
+   24 |   int nclen, ncsize, *vcp, total_vcp;
+      |                            ^~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘fft_init’:
+4_fbe/amber_funcs.c:211:21: warning: unused variable ‘po1’ [-Wunused-variable]
+  211 |   fftw_plan p1, pd1,po1;
+      |                     ^~~
+4_fbe/amber_funcs.c:204:26: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  204 |   fftw_complex *i1,*d1, *comp_ro;
+      |                          ^~~~~~~
+4_fbe/amber_funcs.c:194:24: warning: unused variable ‘ja’ [-Wunused-variable]
+  194 |   int i,j,k,m,index,ia,ja,index_1;
+      |                        ^~
+4_fbe/amber_funcs.c:194:11: warning: unused variable ‘k’ [-Wunused-variable]
+  194 |   int i,j,k,m,index,ia,ja,index_1;
+      |           ^
+4_fbe/amber_funcs.c: In function ‘fft_init_orig’:
+4_fbe/amber_funcs.c:315:4: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  315 |    for(i=0;i<N1;++i)
+      |    ^~~
+4_fbe/amber_funcs.c:342:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  342 |     fftw_execute(p1); // perform FT
+      |     ^~~~~~~~~~~~
+4_fbe/amber_funcs.c:301:26: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  301 |   fftw_complex *i1,*d1, *comp_ro;
+      |                          ^~~~~~~
+4_fbe/amber_funcs.c:293:15: warning: unused variable ‘iagv’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |               ^~~~
+4_fbe/amber_funcs.c:293:11: warning: unused variable ‘jc’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |           ^~
+4_fbe/amber_funcs.c:293:7: warning: unused variable ‘ic’ [-Wunused-variable]
+  293 |   int ic, jc, iagv;
+      |       ^~
+4_fbe/amber_funcs.c:292:14: warning: unused variable ‘index_1’ [-Wunused-variable]
+  292 |   long index,index_1;
+      |              ^~~~~~~
+4_fbe/amber_funcs.c:291:18: warning: unused variable ‘ja’ [-Wunused-variable]
+  291 |   int i,j,k,m,ia,ja;
+      |                  ^~
+4_fbe/amber_funcs.c:291:11: warning: unused variable ‘k’ [-Wunused-variable]
+  291 |   int i,j,k,m,ia,ja;
+      |           ^
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:535:70: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  535 |     if (fread(*rdataPtr, sizeof(double), *rcountPtr * 4, file_rings) != *rcountPtr * 4) {
+      |                                                                      ^~
+4_fbe/amber_funcs.c: In function ‘Df’:
+4_fbe/amber_funcs.c:556:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  556 |         fftw_complex *to_DD, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘Dfg’:
+4_fbe/amber_funcs.c:578:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  578 |         fftw_complex *to_DD, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c:575:33: warning: unused variable ‘jNg’ [-Wunused-variable]
+  575 |         int iN, jN, ia, j, iNg, jNg;
+      |                                 ^~~
+4_fbe/amber_funcs.c:575:17: warning: unused variable ‘jN’ [-Wunused-variable]
+  575 |         int iN, jN, ia, j, iNg, jNg;
+      |                 ^~
+4_fbe/amber_funcs.c: In function ‘Ifg’:
+4_fbe/amber_funcs.c:604:31: warning: unused variable ‘comp_ro’ [-Wunused-variable]
+  604 |         fftw_complex *to_II, *comp_ro;
+      |                               ^~~~~~~
+4_fbe/amber_funcs.c:601:33: warning: unused variable ‘jNg’ [-Wunused-variable]
+  601 |         int iN, jN, ia, j, iNg, jNg;
+      |                                 ^~~
+4_fbe/amber_funcs.c:601:17: warning: unused variable ‘jN’ [-Wunused-variable]
+  601 |         int iN, jN, ia, j, iNg, jNg;
+      |                 ^~
+4_fbe/amber_funcs.c: In function ‘wrapid’:
+4_fbe/amber_funcs.c:629:6: warning: unused variable ‘index’ [-Wunused-variable]
+  629 | long index;
+      |      ^~~~~
+4_fbe/amber_funcs.c:628:14: warning: unused variable ‘jj’ [-Wunused-variable]
+  628 | int p1,r1,ii,jj;
+      |              ^~
+4_fbe/amber_funcs.c: In function ‘wrapidg’:
+4_fbe/amber_funcs.c:674:6: warning: unused variable ‘index’ [-Wunused-variable]
+  674 | long index;
+      |      ^~~~~
+4_fbe/amber_funcs.c:673:14: warning: unused variable ‘jj’ [-Wunused-variable]
+  673 | int p1,r1,ii,jj;
+      |              ^~
+4_fbe/amber_funcs.c: In function ‘get_D’:
+4_fbe/amber_funcs.c:712:16: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  712 |     if (result != N1 * N2) {
+      |                ^~
+4_fbe/amber_funcs.c: In function ‘get_Dg’:
+4_fbe/amber_funcs.c:733:16: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  733 |     if (result != Ng1 * Ng2) {
+      |                ^~
+4_fbe/amber_funcs.c: In function ‘power_spec_GVRL’:
+4_fbe/amber_funcs.c:1204:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1204 |   double binsiz,uu, numer, denom, re_part, im_part;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘power_spec_GV’:
+4_fbe/amber_funcs.c:1286:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1286 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘power_spec_GV_Ntig’:
+4_fbe/amber_funcs.c:1356:20: warning: unused variable ‘ja’ [-Wunused-variable]
+ 1356 |   int i,j,index,ia,ja,tmp;
+      |                    ^~
+4_fbe/amber_funcs.c:1355:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1355 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘cl_dnu’:
+4_fbe/amber_funcs.c:1433:7: warning: variable ‘Nlim’ set but not used [-Wunused-but-set-variable]
+ 1433 |   int Nlim;
+      |       ^~~~
+4_fbe/amber_funcs.c:1430:20: warning: unused variable ‘ja’ [-Wunused-variable]
+ 1430 |   int i,j,index,ia,ja,tmp;
+      |                    ^~
+4_fbe/amber_funcs.c:1429:28: warning: unused variable ‘denom’ [-Wunused-variable]
+ 1429 |   double binsiz,uu, numer, denom;
+      |                            ^~~~~
+4_fbe/amber_funcs.c: In function ‘read_uvdata’:
+4_fbe/amber_funcs.c:1556:18: warning: variable ‘Nz’ set but not used [-Wunused-but-set-variable]
+ 1556 |     long Nu, Nv, Nz, Nvis;
+      |                  ^~
+4_fbe/amber_funcs.c:1555:67: warning: unused variable ‘npixels’ [-Wunused-variable]
+ 1555 |     long naxes[3], fpixel[3], lpixel[3], inc[3]={1,1,1}, nbuffer, npixels, ii, jj, index, index1;
+      |                                                                   ^~~~~~~
+4_fbe/amber_funcs.c:1555:58: warning: unused variable ‘nbuffer’ [-Wunused-variable]
+ 1555 |     long naxes[3], fpixel[3], lpixel[3], inc[3]={1,1,1}, nbuffer, npixels, ii, jj, index, index1;
+      |                                                          ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1746:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+ 1746 |   printf("\n Ngrid = %d",Ngrid);
+      |                      ~^  ~~~~~
+      |                       |  |
+      |                       |  long int
+      |                       int
+      |                      %ld
+4_fbe/amber_funcs.c:1722:16: warning: unused variable ‘sf’ [-Wunused-variable]
+ 1722 |   int ii,jj,nn,sf;
+      |                ^~
+4_fbe/amber_funcs.c:1722:10: warning: unused variable ‘jj’ [-Wunused-variable]
+ 1722 |   int ii,jj,nn,sf;
+      |          ^~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp’:
+4_fbe/amber_funcs.c:2110:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2110 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2107:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2107 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp_adaptive’:
+4_fbe/amber_funcs.c:2165:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2165 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2163:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2163 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘precompute_vcp_old’:
+4_fbe/amber_funcs.c:2439:21: warning: unused variable ‘dnu3’ [-Wunused-variable]
+ 2439 |                 int dnu3 = abs(p3 - p1);
+      |                     ^~~~
+4_fbe/amber_funcs.c:2436:17: warning: unused variable ‘dnu2’ [-Wunused-variable]
+ 2436 |             int dnu2 = abs(p2 - p1);
+      |                 ^~~~
+4_fbe/amber_funcs.c: In function ‘get_uf_chans’:
+4_fbe/amber_funcs.c:2501:44: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 3 has type ‘int’ [-Wformat=]
+ 2501 |         fprintf(stderr, "Error: expected %zu integers, but only read %zu\n", uf_nc, i);
+      |                                          ~~^                                 ~~~~~
+      |                                            |                                 |
+      |                                            long unsigned int                 int
+      |                                          %u
+4_fbe/amber_funcs.c:2501:72: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 4 has type ‘int’ [-Wformat=]
+ 2501 |         fprintf(stderr, "Error: expected %zu integers, but only read %zu\n", uf_nc, i);
+      |                                                                      ~~^            ~
+      |                                                                        |            |
+      |                                                                        |            int
+      |                                                                        long unsigned int
+      |                                                                      %u
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1736:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1736 |   fread(&NN,sizeof(NN),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1737:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1737 |   fread(&nc, sizeof(nc), 1, fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1738:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1738 |   fread(&Du,sizeof(Du),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1739:3: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1739 |   fread(&flag_key,sizeof(flag_key),1,fp);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1779:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1779 | }
+      | ^
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1877:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1877 |  fread(&NN,sizeof(NN),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1878:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1878 |  fread(&nc, sizeof(nc), 1, fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1879:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1879 |  fread(&Du,sizeof(Du),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1880:2: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1880 |  fread(&flag_key,sizeof(flag_key),1,fp);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1888:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1888 |             fread(&GVRRre[index][nn],sizeof(GVRRre[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1889:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1889 |             fread(&GVRRim[index][nn],sizeof(GVRRim[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1907:13: warning: ignoring return value of ‘fread’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1907 |             fread(&NTiG[index][nn],sizeof(NTiG[index][nn]),1,fp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘calCR’:
+4_fbe/amber_funcs.c:406:43: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  406 |     snprintf(filename, sizeof(filename), "%s/closed_rings",res_path);
+      |                                           ^~               ~~~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from 4_fbe/amber_funcs.c:9:
+In function ‘snprintf’,
+    inlined from ‘calCR’ at 4_fbe/amber_funcs.c:406:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 14 and 525 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘calCR’:
+4_fbe/amber_funcs.c:476:45: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  476 |     snprintf(filename2, sizeof(filename2), "%s/rcount", res_path);
+      |                                             ^~          ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘calCR’ at 4_fbe/amber_funcs.c:476:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 8 and 519 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:504:55: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  504 |     snprintf(filename_count, sizeof(filename_count), "%s/rcount", res_path);
+      |                                                       ^~          ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘read_rings’ at 4_fbe/amber_funcs.c:504:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 8 and 519 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘read_rings’:
+4_fbe/amber_funcs.c:519:55: warning: ‘%s’ directive output may be truncated writing up to 511 bytes into a region of size 128 [-Wformat-truncation=]
+  519 |     snprintf(filename_rings, sizeof(filename_rings), "%s/closed_rings",res_path);
+      |                                                       ^~               ~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘read_rings’ at 4_fbe/amber_funcs.c:519:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 14 and 525 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In file included from <LOCAL_DEPENDENCY_PREFIX>/include/fitsio.h:205,
+                 from 4_fbe/amber_funcs.c:14:
+4_fbe/amber_funcs.c: In function ‘read_uvdata’:
+<LOCAL_DEPENDENCY_PREFIX>/include/longnam.h:360:31: warning: ‘nullval’ may be used uninitialized [-Wmaybe-uninitialized]
+  360 | #define fits_read_subset      ffgsv
+4_fbe/amber_funcs.c:1626:9: note: in expansion of macro ‘fits_read_subset’
+ 1626 |     if( fits_read_subset(fptr,TDOUBLE,fpixel,lpixel,inc,nullval,buffer1,&anynull,&status) )
+      |         ^~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c:1559:11: note: ‘nullval’ was declared here
+ 1559 |     void *nullval;
+      |           ^~~~~~~
+4_fbe/amber_funcs.c: In function ‘initialize’:
+4_fbe/amber_funcs.c:1733:41: warning: ‘/GV_data_’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1733 |   snprintf(file_GV, 512*sizeof(char),"%s/GV_data_%d",data_path,NRi);
+      |                                         ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘initialize’ at 4_fbe/amber_funcs.c:1733:3:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 11 and 532 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1870:42: warning: ‘/GV_data_’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1870 |    snprintf(file_GV, 512*sizeof(char),"%s/GV_data_%d",data_path,NRi);
+      |                                          ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘ReadGVnAC_gridding’ at 4_fbe/amber_funcs.c:1870:4:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 11 and 532 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘ReadGVnAC_gridding’:
+4_fbe/amber_funcs.c:1898:44: warning: ‘/sampling’ directive output may be truncated writing 9 bytes into a region of size between 1 and 512 [-Wformat-truncation=]
+ 1898 |    snprintf(file_samp, 512*sizeof(char),"%s/sampling",data_path);
+      |                                            ^~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘ReadGVnAC_gridding’ at 4_fbe/amber_funcs.c:1898:4:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 10 and 521 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+4_fbe/amber_funcs.c: In function ‘get_uf_chans’:
+4_fbe/amber_funcs.c:2487:55: warning: ‘__builtin___snprintf_chk’ output may be truncated before the last format character [-Wformat-truncation=]
+ 2487 |     snprintf(file_ufchans, sizeof(file_ufchans),"%s/%s",data_path, filename);
+      |                                                       ^
+In function ‘snprintf’,
+    inlined from ‘get_uf_chans’ at 4_fbe/amber_funcs.c:2487:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output 2 or more bytes (assuming 513) into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~

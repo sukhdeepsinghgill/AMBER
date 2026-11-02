@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this research code."
+type: software
+title: "AMBER: Multi-frequency angular and three-dimensional 21 cm bispectra"
+authors:
+  - family-names: Gill
+    given-names: Sukhdeep Singh
+preferred-citation:
+  type: article
+  title: "A Visibility-based 21 cm Bispectrum Estimator for Radio-interferometric Data"
+  authors:
+    - family-names: Gill
+      given-names: Sukhdeep Singh
+    - family-names: Bharadwaj
+      given-names: Somnath
+  doi: "10.48550/arXiv.2506.10526"
+  url: "https://arxiv.org/abs/2506.10526"

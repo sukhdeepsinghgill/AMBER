@@ -1,0 +1,6 @@
+768	602	1480.73	1.
+#nc	Umax	FWHM	f
+#nc=Number of channels in UVFITS data 
+#Umax= largest baseline to consider in units of lambda
+#FWHM =of PB in arc-minutes
+#f =  sets FWHM of tapering window to f*FWHM of PB   1480.73  or 1380.
