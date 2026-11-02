@@ -1,7 +1,7 @@
 # AMBER
-### Visibility-based Bispectrum Estimator for Radio interferometric data
+### Visibility-based multi-frequency angular and 3D 21 cm bispectra Estimator for Radio interferometric data
 
-##### Visibility-based multi-frequency angular and 3D 21 cm bispectra. It takes gridded visibility data from radio interferometric observations and computes the 3-visibility correlations for all possible triplets of baselines that form a closed triangle. The output is Multifrequency Angular Bspectrum (MABS) and 3D 21-cm Bispectrum.
+##### It takes gridded visibility data from radio interferometric observations and computes the 3-visibility correlations for all possible triplets of baselines that form a closed triangle. The output is Multifrequency Angular Bspectrum (MABS) and 3D 21-cm Bispectrum.
 
 [Paper](https://arxiv.org/abs/2506.10526) · [Installation](docs/INSTALL.md) · [Code review](docs/REVIEW.md)
 
